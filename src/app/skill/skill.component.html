@@ -1,0 +1,28 @@
+<div class="container">
+  <h3 class="m10">Compétence</h3>
+  <div class="row m15">
+    <div class="col s12 m4" *ngFor="let skillGroup of groupedArray | keyvalue">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ skillGroup.key | categoryImage }}" />
+        </div>
+        <div class="card-title">
+          <h5 class="card-title">{{ skillGroup.key }}</h5>
+        </div>
+        <div class="card-content">
+          <span
+            class="{{ skillGroup.key | skillClass }}"
+            *ngFor="let skill of skillGroup.value | slice: 0:NB_SKILL_DISPLAY"
+          >
+            {{ skill.label }}
+          </span>
+          <span
+            class="{{ skillGroup.key | skillClass }}"
+            *ngIf="skillGroup.value.length > NB_SKILL_DISPLAY"
+            >+{{ skillGroup.value.length - NB_SKILL_DISPLAY }}</span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

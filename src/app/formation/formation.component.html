@@ -1,0 +1,29 @@
+<div class="container">
+  <h3>Formations</h3>
+  <table>
+    <thead>
+      <tr>
+        <td></td>
+        <td>Date</td>
+        <td>Titre formation</td>
+        <td>Diplome</td>
+        <td>Ecole</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let formation of formations">
+        <td>
+          <fa-icon
+            [icon]="faCodeBranch"
+            style="color: blue;"
+            size="3x"
+          ></fa-icon>
+        </td>
+        <td>{{ formation.endDate | date: "MMM yyy" }}</td>
+        <td>{{ formation.title }}</td>
+        <td>{{ formation.diplom }}</td>
+        <td>{{ formation.school }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="row">
+    <div class="x12">
+      <div class="card horizontal">
+        <div class="" style="margin: 20px;">
+          <img
+            [src]="userProfil.profilePicture"
+            class="circle responsive-img"
+          />
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <h3>
+              {{ userProfil.firstName | titlecase }}
+              {{ userProfil.lastName | uppercase }}
+            </h3>
+            <table>
+              <tr>
+                <td>Age:</td>
+                <td>{{ userProfil.birthDate | age }}</td>
+              </tr>
+              <tr>
+                <td>Localisation:</td>
+                <td>{{ userProfil.city | titlecase }}</td>
+              </tr>
+              <tr>
+                <td>Contact:</td>
+                <td>
+                  <fa-icon
+                    [icon]="faEmail"
+                    style="margin-right: 10px; color: #ff6347; fill: blue;"
+                    size="3x"
+                  ></fa-icon>
+                  <a href="{{ userProfil.linkdinUrl }}">
+                    <fa-icon
+                      [icon]="faLinkdin"
+                      style="fill: blue;"
+                      size="3x"
+                    ></fa-icon>
+                  </a>
+                </td>
+              </tr>
+            </table>
+            <h5>Postes :</h5>
+            <!-- on ajoute le pipe pour les dates, avec le bon format : -->
+
+            <!-- on utilise la directive ngFor pour afficher tous les types
+          d'un pokémon donnée -->
+            <span class="chip blue light">Développeur Web .Net</span>
+            <span class="chip green light">Développeur Web Symfony</span>
+            <span class="chip orange light">Testeur </span>
+            <span class="chip red light">Scrum master junior</span>
+            <span class="chip red light">Lead dev junior</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

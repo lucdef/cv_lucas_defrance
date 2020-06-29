@@ -1,0 +1,25 @@
+<div class="container">
+  <h3>Experiences</h3>
+  <div class="row row-experience" *ngFor="let experience of experiences">
+    <div class="icon col s1">
+      <img [src]="experience.pictureCompahy" class="circle responsive-img" />
+    </div>
+    <div class="col s11">
+      <div class="row">
+        <div class="col s3">
+          <h5>{{ experience.company | titlecase }}</h5>
+          <h6>
+            {{ experience.startDate | date: "MM/yyy" }} -
+            {{ experience.endDate | date: "MM/yyy" }}
+          </h6>
+        </div>
+        <div class="col s5">
+          <h5>{{ experience.title }}</h5>
+        </div>
+      </div>
+      <div class="row">
+        {{ experience.description }}
+      </div>
+    </div>
+  </div>
+</div>
