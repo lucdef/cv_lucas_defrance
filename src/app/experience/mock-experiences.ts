@@ -9,9 +9,10 @@ export const EXPERIENCES: Experience[] = [
     pictureCompahy:
       "https://media-exp1.licdn.com/dms/image/C560BAQEyv4S1_INdRA/company-logo_200_200/0?e=2159024400&v=beta&t=sopOlP8TkMtLlgsmMldOUFqHhz1Eyypyv71V4-NYd6k",
     title: "Ingénieur développement",
-    description: `Développement	d'un	logiciel	de	gestion	de	relation	client	(CRM) pour	les	vendeurs	automobiles
+    description: `Développement	d'un	logiciel de	gestion	de	relation	client	(CRM) pour	les	vendeurs	automobiles
     dans	les	concessions.\n
     - Maintenance	des	webservices	utilisés	par	le	CRM`,
+    skills: [],
   },
   {
     id: 2,
@@ -25,6 +26,7 @@ export const EXPERIENCES: Experience[] = [
     description: `- Développement	 et	 maintenance	 d'une application	 web	 mobile	 de	 gestion	 de	 relation	 client
     pour	les	commerciaux\n
     - Développement d'une	version	web	desktop	de	l'application	CRM.`,
+    skills: [],
   },
 
   {
@@ -37,6 +39,7 @@ export const EXPERIENCES: Experience[] = [
       "https://upload.wikimedia.org/wikipedia/fr/thumb/3/31/Logo_GFI_2011.jpg/280px-Logo_GFI_2011.jpg",
     description: `chez	 Bayer : Développement	 d'une	 application	 	 marketing	 pour	 aider	 les	 commerciaux	 à
     présenter	 et	 à	 vendre	 leur	 produits.`,
+    skills: [],
   },
   {
     id: 2,
@@ -49,6 +52,7 @@ export const EXPERIENCES: Experience[] = [
     title: "Développeur Web",
     description: `Réalisation	 d’une	 application	 permettant	 aux	 chercheurs	 d’agréger	 leurs	fichiers	 de
     données	 sous	 forme	 de	 graphiques	 interactifs.`,
+    skills: [],
   },
   {
     id: 1,
@@ -60,5 +64,6 @@ export const EXPERIENCES: Experience[] = [
     title: "Développeur Web",
     description: ` Réalisation	 d’une	 application
     	 web	 de	 gestion	 de	 stock	 de	 consommables	 utilisés	 par	 les	`,
+    skills: [],
   },
 ];
