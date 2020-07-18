@@ -34,7 +34,7 @@ export const EXPERIENCES: Experience[] = [
     company: "gfi informatique",
     title: "Développeur Web",
     pictureCompahy:
-      "https://upload.wikimedia.org/wikipedia/fr/3/31/Logo_GFI_2011.jpg",
+      "https://upload.wikimedia.org/wikipedia/fr/thumb/3/31/Logo_GFI_2011.jpg/280px-Logo_GFI_2011.jpg",
     description: `chez	 Bayer : Développement	 d'une	 application	 	 marketing	 pour	 aider	 les	 commerciaux	 à
     présenter	 et	 à	 vendre	 leur	 produits.`,
   },
@@ -44,7 +44,7 @@ export const EXPERIENCES: Experience[] = [
     endDate: new Date("02/05/2014"),
     company: "altrabio",
     pictureCompahy:
-      "https://media-exp1.licdn.com/dms/image/C560BAQEyv4S1_INdRA/company-logo_200_200/0?e=2159024400&v=beta&t=sopOlP8TkMtLlgsmMldOUFqHhz1Eyypyv71V4-NYd6k",
+      "https://lh3.googleusercontent.com/proxy/-ijG3uO7LI9UYcInbAohwaVVXzwsnnPR5wwYkK3bQXTZ4QsxUibqO37DvBWG1hFSX7wuaR7Sz_OG5Okxi_imAWDX-Hb_SNOO8buyitcvcdxMO86lgkK3p9nK2hr652TBn4E",
 
     title: "Développeur Web",
     description: `Réalisation	 d’une	 application	 permettant	 aux	 chercheurs	 d’agréger	 leurs	fichiers	 de
@@ -56,7 +56,7 @@ export const EXPERIENCES: Experience[] = [
     endDate: new Date("08/02/2013"),
     company: "inserm",
     pictureCompahy:
-      "https://www.soundofscience.fr/wp-content/uploads/2019/03/INSERM.jpg",
+      "https://www.soundofscience.fr/wp-content/uploads/2019/03/INSERM.jpghttps://media.glassdoor.com/sqll/233429/inserm-squarelogo.png",
     title: "Développeur Web",
     description: ` Réalisation	 d’une	 application
     	 web	 de	 gestion	 de	 stock	 de	 consommables	 utilisés	 par	 les	`,
