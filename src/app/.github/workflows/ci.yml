@@ -1,0 +1,16 @@
+on: push
+name: Build CV
+jobs:
+  build:
+      - name: npm install and npm run build
+        run: npm ci
+      - name: Build
+        run: npm run build -- --prod
+      - name: Test
+         run: npm test -- --configuration=ci
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

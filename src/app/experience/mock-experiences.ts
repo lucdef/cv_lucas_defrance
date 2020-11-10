@@ -3,6 +3,17 @@ import { Experience } from "./experience";
 export const EXPERIENCES: Experience[] = [
   {
     id: 1,
+    startDate: new Date("05/18/2020"),
+    endDate: null,
+    company: "Ibiza software",
+    pictureCompahy:
+      "https://media-exp1.licdn.com/dms/image/C560BAQEyv4S1_INdRA/company-logo_200_200/0?e=2159024400&v=beta&t=sopOlP8TkMtLlgsmMldOUFqHhz1Eyypyv71V4-NYd6k",
+    title: "Ingénieur développement",
+    description: `Prestataire chez HR Team`,
+    skills: [],
+  },
+  {
+    id: 1,
     startDate: new Date("09/03/2017"),
     endDate: new Date("04/02/2020"),
     company: "datafirst",
@@ -37,7 +48,8 @@ export const EXPERIENCES: Experience[] = [
     title: "Développeur Web",
     pictureCompahy:
       "https://upload.wikimedia.org/wikipedia/fr/thumb/3/31/Logo_GFI_2011.jpg/280px-Logo_GFI_2011.jpg",
-    description: `chez	 Bayer : Développement	 d'une	 application	 	 marketing	 pour	 aider	 les	 commerciaux	 à
+    description: `Prestataire GFI Informatique en agence. J'ai pû travaiilé pour plusieurs
+    clients:	 Bayer : Développement	 d'une	 application	 	 marketing	 pour	 aider	 les	 commerciaux	 à
     présenter	 et	 à	 vendre	 leur	 produits.`,
     skills: [],
   },
